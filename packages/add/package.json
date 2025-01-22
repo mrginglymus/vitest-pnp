@@ -1,0 +1,10 @@
+{
+  "version": "0.0.1",
+  "name": "add",
+  "peerDependencies": {
+    "leftpad": "^0.0.1"
+  },
+  "devDependencies": {
+    "leftpad": "^0.0.1"
+  }
+}

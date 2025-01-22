@@ -1,0 +1,16 @@
+{
+  "name": "vitest-pnp",
+  "packageManager": "yarn@4.5.2",
+  "type": "module",
+  "workspaces": [
+    "packages/*"
+  ],
+  "scripts": {
+    "test": "vitest"
+  },
+  "devDependencies": {
+    "@vitest/coverage-istanbul": "^3.0.3",
+    "add": "workspace:*",
+    "vitest": "^3.0.3"
+  }
+}
