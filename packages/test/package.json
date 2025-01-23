@@ -1,0 +1,9 @@
+{
+    "name": "test",
+    "type": "module",
+    "version": "0.0.1",
+    "dependencies": {
+        "add": "workspace:*",
+        "vitest": "^3.0.3"
+    }
+}

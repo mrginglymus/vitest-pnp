@@ -2,10 +2,10 @@ import {defineConfig} from 'vitest/config';
 
 export default defineConfig({
   test: {
+    include: ['tests/*'],
     coverage: {
-      enabled: true,
       provider: 'istanbul',
-      include: [".yarn/__virtual__/**/*", "packages/**/*"],
+      include: [".yarn/__virtual__/**/*", "packages/add/**/*"],
       exclude: ["!.yarn/__virtual/**/*"],
       excludeAfterRemap: true
     }

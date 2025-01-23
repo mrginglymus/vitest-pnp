@@ -2,7 +2,7 @@
 
 Demonstrating coverage issues with yarn pnp and vitest
 
-```angular2html
+```
  ✓ tests/add.test.js (1 test) 2ms
    ✓ add
 
@@ -22,3 +22,15 @@ All files                                                |      50 |      100 | 
   add.js                                                 |       0 |      100 |       0 |       0 | 1
 ---------------------------------------------------------|---------|----------|---------|---------|-------------------
 ```
+
+## Commands
+
+`coverage`: demo of the above coverage mismapping
+
+`test-works`: shows test watching working
+
+`test-broke`: shows test watching not working
+
+`start-works`: shows vite watching working
+
+`start-broke`: shows vite watching not working

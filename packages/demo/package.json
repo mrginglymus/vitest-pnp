@@ -1,0 +1,9 @@
+{
+    "name": "demo",
+    "type": "module",
+    "version": "0.0.1",
+    "dependencies": {
+        "add": "workspace:*",
+        "vite": "^6.0.11"
+    }
+}
