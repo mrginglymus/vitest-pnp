@@ -1950,6 +1950,7 @@ __metadata:
   version: 0.0.0-use.local
   resolution: "test@workspace:packages/test"
   dependencies:
+    "@vitest/coverage-istanbul": "npm:^3.0.3"
     add: "workspace:*"
     vitest: "npm:^3.0.3"
   languageName: unknown

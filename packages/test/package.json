@@ -3,6 +3,7 @@
     "type": "module",
     "version": "0.0.1",
     "dependencies": {
+        "@vitest/coverage-istanbul": "^3.0.3",
         "add": "workspace:*",
         "vitest": "^3.0.3"
     }
